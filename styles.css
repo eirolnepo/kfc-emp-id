@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
     margin: 0;
     min-height: 100vh;
+
+    font-family: Inter;
 
     display: flex;
     justify-content: center;
@@ -10,8 +14,39 @@ body {
 }
 
 #emp-id {
+    position: relative;
     width: 60rem;
     height: 30rem;
     background: white;
     border-radius: 1rem;
+}
+
+#logo-name{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#kfc-logo {
+    width: 4rem;
+    padding: 1rem;
+}
+
+#comp-name {
+    font-weight: 700;
+}
+
+#three-bars {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.bars {
+    width: 3rem;
+    height: 4rem;
+    background-color: #A3080C;
 }
