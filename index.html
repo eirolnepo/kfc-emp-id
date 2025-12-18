@@ -9,30 +9,49 @@
     <link rel="icon" href="imgs/KFC_logo.svg.webp" type="image/x-icon">
 </head>
 <body>
-    <div id="emp-id">
-        <div id="logo-name">
-            <img src="imgs/KFC_logo.svg.webp" alt="Logo of KFC" id="kfc-logo">
-            <h2 id="comp-name">KFC Corporation</h2>
-            <div id="three-bars">
-                <div class="bars"></div>
-                <div class="bars"></div>
-                <div class="bars"></div>
+    <div class="id-wrapper">
+        <div class="id-card" id="idCard">
+            <div class="id-face front">
+                <div id="emp-id">
+                    <div id="logo-name">
+                        <img src="imgs/KFC_logo.svg.webp" alt="Logo of KFC" id="kfc-logo">
+                        <h2 id="comp-name">KFC Corporation</h2>
+                        <div id="three-bars">
+                            <div class="bars"></div>
+                            <div class="bars"></div>
+                            <div class="bars"></div>
+                        </div>
+                    </div>
+
+                    <div id="img-det">
+                        <img src="imgs/lebron.webp" alt="Image of LeBron James" id="lbj-img">
+                        <div id="details">
+                            <h1>LeBron Raymone James</h1>
+                            <p class="num-rol">2025-0147</p>
+                            <p class="num-rol">Store Manager</p>
+                            <p>KFC SM City, Manila<br>Ermita, Manila</p>
+                        </div>
+                    </div>
+
+                    <div id="front-sig">
+                        <img src="imgs/lebron_sig.webp" alt="Signature of LeBron James" id="lbj-sig">
+                        <div id="sig-line"></div>
+                        <p>Signature</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div id="img-det">
-            <img src="imgs/lebron.webp" alt="Image of LeBron James" id="lbj-img">
-            <div id="details">
-                <h1>LeBron Raymone James</h1>
-                <p class="num-rol">2025-0147</p>
-                <p class="num-rol">Store Manager</p>
-                <p>KFC SM City, Manila<br>Ermita, Manila</p>
+
+            <!-- NEW: BACK FACE -->
+            <div class="id-face back">
+                <div class="emp-id-back">
+                    <h2>Employee Information</h2>
+                    <p>This ID is property of KFC Corporation.</p>
+                    <p>If found, please return to the nearest KFC branch.</p>
+                </div>
             </div>
-        </div>
-        <div id="front-sig">
-            <img src="imgs/lebron_sig.webp" alt="Signature of LeBron James" id="lbj-sig">
-            <div id="sig-line"></div>
-            <p>Signature</p>
+
         </div>
     </div>
+    <button id="flip-btn">Flip ID</button>
 </body>
 </html>
