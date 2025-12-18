@@ -142,7 +142,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 #tnc {
@@ -307,9 +307,9 @@ body {
     }
 
     #terms-emer {
+        margin-top: 0;
         flex-direction: column;
-        gap: 1.5rem;            
-        margin-top: 4rem;       
+        gap: 0;
     }
 
     #front-sig {
@@ -329,9 +329,32 @@ body {
         margin-right: 0;        
     }
 
+    #tnc h5 {
+        margin-bottom: 0.3rem;
+    }
+
+    #tnc ul {
+        margin-top: 0;
+        padding-left: 1.2rem;
+    }
+
+    #tnc li {
+        font-size: 0.5rem;
+        margin-left: -0.5rem;
+    }
+
     #emer {
         margin-left: 0;         
         text-align: center;     
+    }
+
+    #emer h3 {
+        font-size: 1.1rem;
+    }
+
+    #emer p {
+        font-size: 1rem;
+        line-height: 0.5rem;
     }
 
     #bsig-date {
@@ -344,10 +367,24 @@ body {
         bottom: 4.5rem;         
     }
 
+    #mj-sig {
+        width: 10rem;
+    }
+
+    .sig-line {
+        width: 11rem;
+    }
+
+    #back-sig p {
+        line-height: 0;
+        font-size: 0.5rem;
+    }
+
     #date-ie {
+        font-size: 0.5rem;
         right: auto;            
         left: 50%;              
         transform: translateX(-50%);
-        bottom: 1.5rem;         
+        bottom: 1rem;         
     }
 }
