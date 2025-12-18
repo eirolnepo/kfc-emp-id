@@ -236,3 +236,118 @@ body {
 #flip-btn:active {
   transform: translateY(0);
 }
+
+@media (max-width: 768px) {
+    .id-card {
+        width: 22rem;
+        height: 38rem;
+    }
+
+    #img-det {
+        position: static;
+        transform: none;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 0;
+        height: auto;
+    }
+
+    #img-det h1 {
+        font-size: 1.5rem;
+    }
+
+    .loc {
+        font-size: 0.8rem;
+    }
+
+    #lbj-img {
+        width: 14rem;
+    }
+    
+
+    #details {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .num-rol {
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 0.5;
+    }
+
+    .logo-name {
+        justify-content: center;
+    }
+
+    .comp-name {
+        font-weight: 700;
+        margin-top: 4rem;
+    }
+
+    .kfc-logo {
+        width: 4rem;
+        padding: 1rem;
+        margin-top: 4rem;
+    }
+
+    .three-bars {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .bars {
+        width: 3rem;
+        height: 4rem;
+        background-color: #A3080C;
+    }
+
+    #terms-emer {
+        flex-direction: column;
+        gap: 1.5rem;            
+        margin-top: 4rem;       
+    }
+
+    #front-sig {
+        position: absolute;
+        bottom: 0.5rem;
+
+        left: 50%;
+        transform: translateX(-50%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #tnc {
+        margin-right: 0;        
+    }
+
+    #emer {
+        margin-left: 0;         
+        text-align: center;     
+    }
+
+    #bsig-date {
+        flex-direction: column; 
+    }
+
+    #back-sig {
+        left: 50%;              
+        transform: translateX(-50%);
+        bottom: 4.5rem;         
+    }
+
+    #date-ie {
+        right: auto;            
+        left: 50%;              
+        transform: translateX(-50%);
+        bottom: 1.5rem;         
+    }
+}
