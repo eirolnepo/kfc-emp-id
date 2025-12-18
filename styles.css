@@ -237,9 +237,9 @@ body {
   transform: translateY(0);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1px) and (max-width: 767px) {
     .id-card {
-        width: 22rem;
+        width: 21rem;
         height: 38rem;
     }
 
@@ -331,6 +331,7 @@ body {
 
     #tnc h5 {
         margin-bottom: 0.3rem;
+        margin-left: 0.5rem;
     }
 
     #tnc ul {
@@ -386,5 +387,96 @@ body {
         left: 50%;              
         transform: translateX(-50%);
         bottom: 1rem;         
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .id-card {
+        width: 45rem;
+        height: 24rem;
+    }
+
+    .kfc-logo {
+        width: 3.2rem;
+        padding: 0.8rem;
+    }
+
+    .comp-name {
+        font-size: 1.3rem;
+    }
+
+    .bars {
+        width: 2.4rem;
+        height: 3.2rem;
+    }
+
+    #img-det {
+        left: 2rem;
+        gap: 3rem;
+    }
+
+    #lbj-img {
+        width: 14rem;
+    }
+
+    #details {
+        margin-left: 2rem;
+    }
+
+    #details h1 {
+        font-size: 1.6rem;
+    }
+
+    .num-rol {
+        font-size: 1.2rem;
+    }
+
+    #loc {
+        font-size: 0.9rem;
+    }
+
+    #front-sig {
+        right: 1.5rem;
+    }
+
+    #lbj-sig {
+        width: 6.5rem;
+    }
+
+    .sig-line {
+        width: 11rem;
+    }
+
+    #terms-emer {
+        gap: 1rem;
+    }
+
+    #tnc {
+        margin-right: 4rem;
+    }
+
+    #tnc li {
+        font-size: 0.6rem;
+    }
+
+    #emer h3 {
+        font-size: 1.2rem;
+    }
+
+    #emer p {
+        font-size: 1rem;
+    }
+
+    #back-sig {
+        left: 4rem;
+    }
+
+    #mj-sig {
+        width: 11rem;
+    }
+
+    #date-ie {
+        font-size: 0.7rem;
+        right: 6rem;
     }
 }
